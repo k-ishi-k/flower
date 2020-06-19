@@ -1,0 +1,884 @@
+@media (min-width: 810px) and (max-width: 1500px) {
+
+body {
+  margin: 0;
+}
+
+.section1 {
+  background-image: url(flower.jpg);
+  background-position: center bottom;
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+  text-align: center;
+}
+
+header img {
+  width: 140px;
+  height: 120px;
+  margin-top: 120px;
+}
+
+header h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+header p {
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0;
+  padding: 280px 0 50px 0;
+  letter-spacing: 1.5px;
+}
+
+.section2 {
+  display: table-cell;
+  background-image: url(flower2.jpg );
+  background-position: center bottom;
+  background-size: cover;
+  padding: 50px 30px;
+  width: 420px;
+  height: 480px;
+}
+
+.section2 h1, .section3 h1,  .section4 h1 {
+  margin: 0;
+  color: white;
+}
+
+.section2 p, .section3 p, .section4 p{
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+}
+
+.section3 {
+  display: table-cell;
+  background-image: url(flower3.jpg);
+  background-position: center bottom;
+  background-size: cover;
+  padding: 50px 30px;
+  width: 420px;
+  height: 480px;
+}
+
+.section4 {
+  display: table-cell;
+  background-image: url(flower4.jpg);
+  background-position: center bottom;
+  background-size: cover;
+  padding: 50px 30px;
+  width: 420px;
+  height: 480px;
+  
+}
+
+.section5 {
+  /* position: relative; */
+  display: inline-block;
+  background-color: #f5f5f5;
+  width: 50%;
+  height: auto;
+  text-align: center;
+  padding: 60px 0;
+  margin: 0;
+}
+
+.section5 .container {
+  display: inline-block;
+  margin: 0;
+}
+
+.section5 .content {
+  position: relative;
+} 
+.section5 h2 {
+
+}
+.freetrial {
+  background-image: url(price_freetrial.png );
+  background-size: cover;
+  background-position: center;
+  width: 125px;
+  height: 46px;
+  position: absolute;
+  top: -15px;
+  left: 50px;
+}
+
+.wrap h2 {
+  margin: 0 0 30px 0;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+.content{
+  display: table;
+}
+
+.bouquet img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  vertical-align: middle;
+   display: table-cell;
+}
+
+.bouquet-price {
+  padding-top: 10px;
+
+}
+.bouquet-price  p{
+  text-align: center;
+ margin: 0;
+ font-weight: 500;
+}
+
+.footnote {
+  margin-top: 30px;
+}
+
+.footnote p {
+  font-size: 13px;
+  margin: 0; 
+}
+
+.section6 {
+  float: right;
+  text-align: center;
+  background-color: white;
+  width: 50%;
+  height: auto;
+  padding:120px 0;
+  margin: 0;
+}
+
+
+.calendar img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+
+.calendar h2 {
+  margin: 0 0 30px 0;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.section7 {
+  width: 0 auto;
+  background-color: #ead5dc;
+  padding: 100px 25px;
+}
+
+.section7 img {
+  width: 50%;
+   height: 100%;
+   float: left;
+}
+
+.section7 .texts {
+  text-align: center;
+  display: inline-block;
+  color: #3f434a;
+  width: 50%;
+}
+
+.section7 h1, h2 {
+  font-weight: 500;
+}
+
+.section7 .texts h1 {
+  margin-bottom: 50px;
+  font-size: 26px;
+}
+
+.section7 h2 {
+  font-size: 23px;
+}
+
+.section7 p {
+  width: 400px;
+  display: inline-block;
+  text-align: left;
+  margin: 0;
+}
+
+.section8 {
+  display: inline-block;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  background-color: #e7e3df;
+}
+
+.sec8-left {
+  width: 50%;
+  display: inline-block;
+  margin: 0;
+  float: left;
+  padding-top: 70px;
+  text-align: center;
+}
+
+.sec8-left .container {
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+}
+
+.container h1 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.container .textbox {
+  display: inline-block;
+  padding: 4px 8px;
+  margin: 20px 85px;
+  font-size: 15px;
+  background-color: white;
+}
+
+.container .comment {
+  margin: 0;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+}
+
+.sec8-left .variation {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+
+.variation img {
+  width: 100px;
+  height: 120px;
+}
+
+.variation .item-bell p {
+position: absolute;
+bottom: 10px;
+left: 38px;
+}
+
+.variation .item-moon p {
+  position: absolute;
+  bottom: 10px;
+  left: 175px;
+  }
+
+  .variation .item-candle p {
+    position: absolute;
+    bottom: 10px;
+    right:  25px;
+    }
+
+.name p {
+  margin: 0;
+}
+
+.price, .footnote { 
+  text-align: left;
+}
+
+.price .title {
+  display: inline-block;
+  border: 2px solid;
+  width: 100px;
+  text-align: center;
+  margin: 0 10px 0 0;
+  padding: 5px;
+}
+
+.price .title p {
+  display: inline-block;
+  margin: 0;
+  font-size: 15px;
+}
+
+.content {
+  box-sizing: inherit;
+  display: inline-block;
+}
+
+.discount_price {
+  font-size: 18px;
+}
+
+.normal_price {
+  font-size: 13px;
+}
+
+.footnote {
+  font-size: 13px;
+  margin: 20px 0 60px 0;
+}
+
+.sec8-right {
+  width: 50%;
+  display: inline-block;
+  margin: 0;
+}
+
+.sec8-right img {
+  /* width: 720px;
+  height: 730px; */
+  width: 100%;
+  background-position: bottom;
+  text-align: center;
+}
+
+.section9 h2 {
+  text-align: center;
+  font-size: 26px;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+.item .item-item1, .item-item2, .item-item3 {
+  text-align: center;
+  width: 300px;
+}
+ 
+.item img {
+  width: 80px;
+  height: 80px;
+}
+
+.item h3 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.section10 {
+  width: 100%;
+  height: 430px;
+  background-color: #efdfc5;
+  text-align: center;
+  /* position: relative; */
+}
+
+.section10 .container {
+  position: relative;
+}
+
+.section10 .picture {
+  width: 80%;
+}
+
+.section10 .picture img {
+  display: inline-block;
+  text-align: center;
+  width: 550px;
+  height: 430px;
+}
+
+.section10 .logo img {
+  width: 120px;
+  height: 80px;
+  position: absolute;
+  top: 70px;
+  right: 200px;
+}
+
+.logo p {
+  position: absolute;
+  top: 150px;
+  right: 180px;
+}
+
+footer {
+  background-color: #3f434a;
+  height: 170px;
+  padding: 20px 0;
+  position: relative;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+
+}
+
+footer .container {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 0;
+}
+
+.insta {
+  float: right;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+
+.insta img {
+  width: 70px;
+  height: 70px;
+}
+
+ .copyright {
+  font-size: 13px;
+  color: rgba(209, 206, 206, 0.747);
+  text-align: center;
+}
+
+}
+
+@media (min-width: 300px) and (max-width: 810px) {
+  body {
+    margin: 0;
+  }
+  .section1 {
+    background-image: url(flower.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    text-align: center;
+  }
+  
+  header img {
+    width: 140px;
+    height: 120px;
+    margin-top: 120px;
+  }
+  
+  header h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  header p {
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+    padding: 280px 0 50px 0;
+    letter-spacing: 1.5px;
+  }
+  
+  .section2 {
+    background-image: url(flower2.jpg );
+    background-position: center bottom;
+    background-size: cover;
+    padding: 50px 30px;
+    width: auto;
+    height: 480px;
+  }
+  
+  .section2 h1, .section3 h1,  .section4 h1 {
+    margin: 0;
+    color: white;
+  }
+  
+  .section2 p, .section3 p, .section4 p{
+    color: white;
+    
+    font-size: 15px;
+    letter-spacing: 1.5px;
+  }
+  
+  .section3 {
+    background-image: url(flower3.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    padding: 50px 30px;
+    width: auto;
+    height: 480px;
+  }
+  
+  .section4 {
+    background-image: url(flower4.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    padding: 50px 30px;
+    width: auto;
+    height: 480px;
+    
+  }
+  
+  .section5 {
+    text-align: center;
+    display: inline-block;
+    background-color: #f5f5f5;
+    width: 100%;
+    height: auto;
+    padding: 60px 0;
+    margin: 0;
+  }
+  
+  .section5 .container {
+    display: inline-block;
+    margin: 0;
+  }
+  
+  .section5 .content {
+    position: relative;
+  } 
+  
+  .freetrial {
+    background-image: url(price_freetrial.png );
+    background-size: cover;
+    background-position: center;
+    width: 125px;
+    height: 46px;
+    position: absolute;
+    top: -15px;
+    left: 50px;
+  }
+
+  .section5 .wrap {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .wrap h2 {
+    margin: 0 0 30px 0;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  
+  .bouquet img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .bouquet-price  p{
+   margin: 0;
+   font-weight: 500;
+  }
+  
+  .footnote {
+    margin-top: 30px;
+  }
+  
+  .footnote p {
+    font-size: 13px;
+    margin: 0; 
+    text-align: center;
+  }
+  
+  .section6 {
+    float: right;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding:120px 0;
+    margin: 0;
+  }
+  
+  
+  .calendar img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .calendar h2 {
+    margin: 0 0 30px 0;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  
+  .section7 {
+    height: 100%;
+    background-color: #ead5dc;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .section7 .image-photo {
+    display: inline-block;
+    width: 360px;
+    height: auto;
+   position: relative;
+  }
+
+  .section7 .image-photo img {
+    display: inline-block;
+    width:  380px;
+    height: auto;
+    padding-top: 120px;
+  }
+
+  .section7 .texts {
+    display: inline-block;
+    width: 360px;
+  }
+  
+  .section7 .texts h1, h2, p{
+    color: #3f434a;
+    font-weight: 300;
+  }
+  
+  .section7 h1 {
+    text-align: center;
+    font-size: 22px;
+    position: absolute;
+    top: 60px;
+    left: 85px;
+  }
+  
+  .section7 h2 {
+    font-size: 22px;
+  
+  }
+
+  .section7 p {
+    text-align: start;
+    margin: 0;
+  }
+  
+  .section8 {
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    background-color: #e7e3df;
+    padding: 70px 0;
+    text-align: center;
+  }
+  
+  .section8 .container {
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  
+  .container h1 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 26px;
+  }
+  .container h1, .textbox {
+   text-align: center;
+  }
+  
+  .container .textbox {
+    display: inline-block;
+    padding: 4px 8px;
+    margin: 20px 85px;
+    font-size: 15px;
+    background-color: white;
+  }
+  
+  .container .comment {
+    margin: 0;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  .variation {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+  }
+  
+  .variation img {
+    width: 100px;
+    height: 120px;
+  }
+  
+  .variation .item-bell p {
+  position: absolute;
+  bottom: 10px;
+  left: 38px;
+  }
+  
+  .variation .item-moon p {
+    position: absolute;
+    bottom: 10px;
+    left: 175px;
+    }
+  
+    .variation .item-candle p {
+      position: absolute;
+      bottom: 10px;
+      right:  25px;
+      }
+  
+  .name p {
+    margin: 0;
+  }
+
+  .price {
+    text-align: left;
+  }
+  
+  .price .title {
+    display: inline-block;
+    border: 2px solid;
+    width: 100px;
+    text-align: center;
+    margin: 0 10px 0 0;
+    padding: 5px;
+  }
+  
+  .price .title p {
+    display: inline-block;
+    margin: 0;
+    font-size: 15px;
+  }
+  
+  .content {
+    box-sizing: inherit;
+    display: inline-block;
+  }
+  
+  .discount_price {
+    font-size: 18px;
+  }
+  
+  .normal_price {
+    font-size: 13px;
+  }
+  
+  .footnote {
+    font-size: 13px;
+    margin: 20px 0 60px 0;
+    text-align: left;
+  }
+  
+  .sec8-right img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    /* position: absolute;
+    top: 0;
+    right: 0; */
+  }
+  
+  .section9 h2 {
+    text-align: center;
+    font-size: 26px;
+  }
+  
+  .item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px 0;
+  }
+  
+  .item .item-item1, .item-item2, .item-item3 {
+    text-align: center;
+    width: 300px;
+  }
+   
+  .item img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .item h3 {
+    margin: 0;
+    font-size: 22px;
+  }
+  
+  .section10 {
+    width: 100%;
+    height: 450px;
+    background-color: #efdfc5;
+    text-align: center;
+  }
+  
+  .section10 .container {
+    display: inline-block;
+    margin: 0;
+  }
+  .section10 .picture {
+    position: relative;
+    width: 360px;
+    height: auto;
+    display: inline-block;
+    margin: 0;
+  }
+
+  .section10 .picture img {
+    position: relative;
+    background-position: bottom;
+    display: inline-block;
+    margin-top: 170px;
+    width: 360px;
+    height: 280px;
+  }
+  
+  .section10 .logo img {
+    width: 120px;
+    height: 80px;
+    position: absolute;
+    top: -100px;
+    left: 120px;
+  }
+  
+  .logo p {
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+  }
+  
+  footer {
+    background-color: #3f434a;
+    height: auto;
+    padding: 20px;
+    position: relative;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+    margin: 10px 0;
+  
+  }
+  
+  .container {
+    margin: 15px;
+    height: auto;
+  }
+  
+  .insta {
+    float: right;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+  }
+  
+  .insta img {
+    width: 70px;
+    height: 70px;
+  }
+  
+   .copyright p {
+    font-size: 13px;
+    color: rgba(209, 206, 206, 0.747);
+    text-align: center;
+  }
+}
